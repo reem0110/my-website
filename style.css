@@ -1,0 +1,103 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f5f1;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFB3BA;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 4px solid #FFDAE5;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Section styles */
+.food-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.food-card {
+    background-color: #FFDAE5;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.food-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.food-card h3 {
+    font-size: 1.6rem;
+    color: #FF6F61;
+    margin-bottom: 0.5rem;
+}
+
+.food-card p {
+    color: #444;
+}
+
+.food-fact {
+    text-align: center;
+    padding: 2rem;
+    background-color: #FFFEFF;
+    border-top: 4px solid #FFB3BA;
+}
+
+button {
+    background-color: #FF6F61;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4E40;
+}
+
+#foodFactText {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FFDAE5;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    color: #777;
+}
